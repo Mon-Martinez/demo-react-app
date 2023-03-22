@@ -1,9 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
 
-function Input() {
+function ReactInput() {
   return (
-    <input type="text" placeholder="Enter text" />
+    <NewInput type="text" placeholder="Ask Me a Question" />
   );
 }
 
-export default Input;
+export default ReactInput;
+
+const NewInput = styled.input`
+`;

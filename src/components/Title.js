@@ -4,15 +4,17 @@ import styled from 'styled-components';
 function Title() {
   return (
     <>
-    <NewTitle>Monica's FSD Project</NewTitle>
-    <h2>This is my project demo</h2>
+    <NewTitle>Welcome to My About Me...</NewTitle>
+    <Name>My name is Monica & I live in the Twin Cities!</Name>
     </>
   );
 }
 export default Title;
 const NewTitle = styled.h1`
-  background-color: #e6e049;
-  text-decoration: underline;
+  font-size: 50px;
+  ;`
+
+const Name = styled.h2`
   font-style: italic;
-  font-size: 60px;
+  font-size: 30px;
 ;`
