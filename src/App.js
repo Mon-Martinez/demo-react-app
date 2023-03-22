@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from './components/Title';
 import Input from './components/Input';
-import Button from './components/Button';
+import SubmitButton from './components/SubmitButton';
 import Body from './components/Body';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Title />
       <Input />
-      <Button />
+      <SubmitButton />
       <Body />
     </div>
   );
