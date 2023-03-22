@@ -19,5 +19,4 @@ function App() {
 export default App;
 
 const ReactDiv = styled.div`
-  background-color: #faffd6;
 ;`
